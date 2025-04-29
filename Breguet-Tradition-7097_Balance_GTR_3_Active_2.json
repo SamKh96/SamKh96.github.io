@@ -1,0 +1,136 @@
+﻿{
+  "WatchFace_Info": {
+    "DeviceName": "Active 2",
+    "WatchFaceId": 3600812,
+    "Preview": "Preview"
+  },
+  "ScreenNormal": {
+    "Background": {
+      "visible": true,
+      "BackgroundImage": {
+        "position": -1,
+        "visible": true,
+        "show_level": "ONLY_NORMAL",
+        "x": 0,
+        "y": 0,
+        "w": 441,
+        "h": 441,
+        "src": "background",
+        "alpha": 255
+      }
+    },
+    "Elements": [
+      {
+        "elementName": "ElementAnimation",
+        "visible": true,
+        "Rotate_Animation_List": {
+          "position": 1,
+          "selected_animation": 0,
+          "visible": true,
+          "Rotate_Animation": [
+            {
+              "visible": true,
+              "show_level": "ONLY_NORMAL",
+              "src": "gear_1",
+              "center_x": 224,
+              "center_y": 355,
+              "pos_x": 46,
+              "pos_y": 47,
+              "start_angle": 360,
+              "end_angle": 0,
+              "anim_fps": 15,
+              "anim_duration": 5000,
+              "repeat_count": 0,
+              "anim_two_sides": false,
+              "show_in_start": true
+            },
+            {
+              "visible": true,
+              "show_level": "ONLY_NORMAL",
+              "src": "gear_2",
+              "center_x": 318,
+              "center_y": 284,
+              "pos_x": 66,
+              "pos_y": 66,
+              "start_angle": 0,
+              "end_angle": 360,
+              "anim_fps": 15,
+              "anim_duration": 8000,
+              "repeat_count": 0,
+              "anim_two_sides": false,
+              "show_in_start": true
+            }
+          ]
+        }
+      },
+      {
+        "elementName": "ElementBattery",
+        "visible": true,
+        "Pointer": {
+          "position": 2,
+          "visible": true,
+          "show_level": "",
+          "src": "pointer",
+          "center_x": 62,
+          "center_y": 142,
+          "pos_x": 28,
+          "pos_y": 98,
+          "start_angle": 138,
+          "end_angle": 38,
+          "cover_path": "overlay_2",
+          "cover_x": 209,
+          "cover_y": 312,
+          "scale_x": 0,
+          "scale_y": 0
+        },
+        "Icon": {
+          "position": 1,
+          "visible": true,
+          "show_level": "",
+          "x": 280,
+          "y": 163,
+          "src": "overlay_3",
+          "alpha": 255
+        }
+      },
+      {
+        "elementName": "AnalogTime",
+        "visible": true,
+        "show_level": "",
+        "Minute": {
+          "position": 2,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "src": "minute_hand",
+          "center_x": 220,
+          "center_y": 118,
+          "pos_x": 12,
+          "pos_y": 89,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        },
+        "Hour": {
+          "position": 1,
+          "visible": true,
+          "show_level": "ONLY_NORMAL",
+          "src": "hour_hand",
+          "center_x": 219,
+          "center_y": 118,
+          "pos_x": 13,
+          "pos_y": 72,
+          "start_angle": 0,
+          "end_angle": 360,
+          "cover_x": 0,
+          "cover_y": 0,
+          "scale_x": 0,
+          "scale_y": 0
+        }
+      }
+    ]
+  },
+  "ScreenAOD": {}
+}
